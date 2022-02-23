@@ -1,0 +1,65 @@
+﻿<Window x:Class="Puissance4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puissance4"
+        mc:Ignorable="d"
+        Title="Match Four" Height="500" Width="500"
+        ResizeMode="NoResize">
+    <Canvas x:Name="Canvas01" KeyDown="Canvas01_KeyDown" KeyUp="Canvas01_KeyUp" Focusable="True">
+        <Ellipse x:Name="PlayerToken1" Width="50" Height="50" Canvas.Left="75" Canvas.Top="25" Fill="Red"></Ellipse>
+        <Rectangle x:Name="Table" Fill="DarkBlue" Width="500" Height="375" Canvas.Left="0" Canvas.Bottom="0"></Rectangle>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="75" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="125" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="175" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="225" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="275" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="325" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="0" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="50" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="100" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="150" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="200" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="250" Panel.ZIndex="1"></Ellipse>
+        <Ellipse Width="50" Height="50" Fill="White" Canvas.Left="375" Canvas.Bottom="300" Panel.ZIndex="1"></Ellipse>
+
+        <TextBlock Name="debugCheck"></TextBlock>
+    </Canvas>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\bin\Debug\Puissance4.exe.config
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\bin\Debug\Puissance4.exe
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\bin\Debug\Puissance4.pdb
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.csproj.AssemblyReference.cache
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.csproj.SuggestedBindingRedirects.cache
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\MainWindow.g.cs
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\App.g.cs
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4_MarkupCompile.cache
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4_MarkupCompile.lref
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\MainWindow.baml
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.g.resources
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.Properties.Resources.resources
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.csproj.GenerateResource.cache
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.csproj.CoreCompileInputs.cache
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.exe
+C:\Users\adrie\Documents\La Manu\WPF\Puissance4\Puissance4\obj\Debug\Puissance4.pdb
